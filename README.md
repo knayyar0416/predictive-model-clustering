@@ -12,7 +12,7 @@ These projects showed a preference for swift project initiation, and the pledged
 Projects with high fundraising goals and recent deadlines. Interestingly, some projects in this cluster managed to attract a high number of backers, even with lofty fundraising goals.
 #### 👥 Backer-Friendly Projects
 This cluster stood out for its projects' ability to attract a significant number of backers.
-#### ⚖💡 Modest Achievers
+#### 💡 Modest Achievers
 These projects struck a balance between goal and backers, with an average duration between project creation and launch.
 #### 👏 Well-Supported Initiatives
 Projects in this cluster enjoyed high backers and pledged amounts. These projects maintained a relatively low goal and were picked by staff, potentially for the spotlight.
