@@ -4,26 +4,26 @@ In this project,
 ## 🌐 About Kickstarter
 [Kickstarter](https://www.kickstarter.com) is a platform where creators share their project visions with the communities that will come together to fund them.
 
-## 💼 What did I discover?
+## 🏆 What did I discover?
 By grouping the Kickstarter projects using unsupervised clustering, the management could uncover distinct characteristics within each cluster. Below are the unique characteristics of 8 clusters.
-#### ⚖️🚀 Moderate Goals, Quick Launchers
+#### ⚖️ Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
-#### 💰📆 High Goals, Recent Projects
+#### 📆 High Goals, Recent Projects
 Projects with high fundraising goals and recent deadlines. Interestingly, some projects in this cluster managed to attract a high number of backers, even with lofty fundraising goals.
-#### 🤝👥 Backer-Friendly Projects
+#### 👥 Backer-Friendly Projects
 This cluster stood out for its projects' ability to attract a significant number of backers.
-#### ⚖️💡 Modest Achievers
+#### ⚖💡 Modest Achievers
 These projects struck a balance between goal and backers, with an average duration between project creation and launch.
-#### 👏💰 Well-Supported Initiatives
+#### 👏 Well-Supported Initiatives
 Projects in this cluster enjoyed high backers and pledged amounts. These projects maintained a relatively low goal and were picked by staff, potentially for the spotlight.
-#### ⚡🚀 Rapid Projects
+#### 🚀 Rapid Projects
 This cluster embodied a preference for rapid project development and execution.
-#### 🌟🎯 Ambitious Newcomers
+#### 🎯 Ambitious Newcomers
 With a 24% success rate, Cluster 7 features projects with relatively higher fundraising goals compared to the amount pledged.
-#### 🕰️💼 Long-Term High-Stakes
+#### 🕰️ Long-Term High-Stakes
 Cluster 8, with a 29% success rate, represents projects with the highest fundraising goals across clusters. Notably, these projects were created a long time back, suggesting a lower success rate over time.
 
-## 🔄 How did I achieve this? 
+## 🛠️ How did I achieve this? 
 Below is the detailed process for model building.
 1. 🧹 Data preprocessing:
    - Removed non- informative columns including 𝑖𝑑, 𝑛𝑎𝑚𝑒, 𝑛𝑎𝑚𝑒_𝑙𝑒𝑛, 𝑏𝑙𝑢𝑟𝑏_𝑙𝑒𝑛, and 𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
