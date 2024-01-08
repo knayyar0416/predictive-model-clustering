@@ -14,6 +14,7 @@ The primary goal is to group Kickstarter projects using unsupervised clustering 
 
 ## 🎉 Conclusion
 In summary, the K-Prototypes clustering algorithm provided valuable insights into diverse project profiles, offering a comprehensive understanding of Kickstarter projects.
+
 By testing cost function for different values of K for K-Prototypes Clustering, I could observe K=8 and K=10 are the elbow points at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
 ### Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
