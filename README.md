@@ -19,7 +19,7 @@ By grouping the Kickstarter projects using unsupervised clustering, the manageme
    - I decided to perform K-Prototypes clustering to accommodate both the numerical and categorical features.
    - By testing cost function for different values of K for K-Prototypes Clustering, I could observe K=8 and K=10 are the elbow points at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
 
-## Results
+## ✅ Results
 Below are the unique characteristics of 8 clusters.
 ### ⚖️🚀 Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
