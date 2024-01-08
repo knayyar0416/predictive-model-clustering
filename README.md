@@ -19,13 +19,22 @@ In summary, the K-Prototypes clustering algorithm provided valuable insights int
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
 ## High Goals, Recent Projects: 
 Projects with high fundraising goals and recent deadlines. Interestingly, some projects in this cluster managed to attract a high number of backers, even with lofty fundraising goals.
-3. Backer-Friendly Projects: This cluster stood out for its projects' ability to attract a significant number of backers.
-4. Modest Achievers: These projects struck a balance between goal and backers, with an average duration between project creation and launch.
-5. Well-Supported Initiatives: Projects in this cluster enjoyed high backers and pledged amounts. These projects maintained a relatively low goal and were picked by staff, potentially for the spotlight.
-6. Rapid Projects: This cluster embodied a preference for rapid project development and execution.
-7. Ambitious Newcomers: With a 24% success rate, Cluster 7 features projects with relatively higher fundraising goals compared to the amount pledged.
-8. Long-Term High-Stakes: Cluster 8, with a 29% success rate, represents projects with the highest fundraising goals across clusters. Notably, these projects were created a long time back, suggesting a lower success rate over time.
+## Backer-Friendly Projects: 
+This cluster stood out for its projects' ability to attract a significant number of backers.
+## Modest Achievers: 
+These projects struck a balance between goal and backers, with an average duration between project creation and launch.
+## Well-Supported Initiatives: 
+Projects in this cluster enjoyed high backers and pledged amounts. These projects maintained a relatively low goal and were picked by staff, potentially for the spotlight.
+## Rapid Projects: 
+This cluster embodied a preference for rapid project development and execution.
+## Ambitious Newcomers: 
+With a 24% success rate, Cluster 7 features projects with relatively higher fundraising goals compared to the amount pledged.
+## Long-Term High-Stakes: 
+Cluster 8, with a 29% success rate, represents projects with the highest fundraising goals across clusters. Notably, these projects were created a long time back, suggesting a lower success rate over time.
 
 # 🔗 Supporting files
-
+- 👩‍💻 [Python script for final selected clustering model]()
+- 👩‍💻 [Python script for all clustering models]()
+- 📁 [Entire dataset](kickstarter.xlsx) and [Data Dictionary](kickstarter-test-dataset.xlsx)
+- 📊 [Data exploration and other charts](Images)
 
