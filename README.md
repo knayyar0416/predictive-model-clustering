@@ -5,7 +5,7 @@ In this project,
 [Kickstarter](https://www.kickstarter.com) is a platform where creators share their project visions with the communities that will come together to fund them.
 
 ## 💼 Business Value
-The primary goal is to group Kickstarter projects using unsupervised clustering and uncover distinct characteristics within each cluster.
+By grouping the Kickstarter projects using unsupervised clustering, the management could uncover distinct characteristics within each cluster.
 
 ## 🔄 Process Overview
 1. Data preprocessing:
