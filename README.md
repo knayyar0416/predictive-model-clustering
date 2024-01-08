@@ -1,4 +1,4 @@
-# Exploring distinctive features for various projects through unsupverised clustering algorithm
+# Exploring distinctive features for various projects using unsupverised clustering algorithm
 In this project, 
 
 ## 🌐 About Kickstarter
