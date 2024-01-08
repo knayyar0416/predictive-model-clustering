@@ -6,7 +6,7 @@ In this project,
 
 ## 💼 What did I discover?
 By grouping the Kickstarter projects using unsupervised clustering, the management could uncover distinct characteristics within each cluster. Below are the unique characteristics of 8 clusters.
-### ⚖️🚀 Moderate Goals, Quick Launchers
+#### ⚖️🚀 Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
 ### 💰📆 High Goals, Recent Projects
 Projects with high fundraising goals and recent deadlines. Interestingly, some projects in this cluster managed to attract a high number of backers, even with lofty fundraising goals.
