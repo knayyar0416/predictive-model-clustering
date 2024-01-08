@@ -15,21 +15,21 @@ The primary goal is to group Kickstarter projects using unsupervised clustering 
 
 ## 🎉 Conclusion
 In summary, the K-Prototypes clustering algorithm provided valuable insights into diverse project profiles, offering a comprehensive understanding of Kickstarter projects.
-### Moderate Goals, Quick Launchers: 
+### Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
-### High Goals, Recent Projects: 
+### High Goals, Recent Projects
 Projects with high fundraising goals and recent deadlines. Interestingly, some projects in this cluster managed to attract a high number of backers, even with lofty fundraising goals.
-### Backer-Friendly Projects: 
+### Backer-Friendly Projects
 This cluster stood out for its projects' ability to attract a significant number of backers.
-### Modest Achievers: 
+### Modest Achievers
 These projects struck a balance between goal and backers, with an average duration between project creation and launch.
-### Well-Supported Initiatives: 
+### Well-Supported Initiatives
 Projects in this cluster enjoyed high backers and pledged amounts. These projects maintained a relatively low goal and were picked by staff, potentially for the spotlight.
-### Rapid Projects: 
+### Rapid Projects
 This cluster embodied a preference for rapid project development and execution.
-### Ambitious Newcomers: 
+### Ambitious Newcomers
 With a 24% success rate, Cluster 7 features projects with relatively higher fundraising goals compared to the amount pledged.
-### Long-Term High-Stakes: 
+### Long-Term High-Stakes
 Cluster 8, with a 29% success rate, represents projects with the highest fundraising goals across clusters. Notably, these projects were created a long time back, suggesting a lower success rate over time.
 
 ## 🔗 Supporting files
