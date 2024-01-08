@@ -13,7 +13,7 @@ By grouping the Kickstarter projects using unsupervised clustering, the manageme
    - Created a new feature, 𝑔𝑜𝑎𝑙_𝑢𝑠𝑑, by multiplying 𝑔𝑜𝑎𝑙 and 𝑠𝑡𝑎𝑡𝑖𝑐_𝑢𝑠𝑑_𝑟𝑎𝑡𝑒.
    - Replaced non-US countries with 'Non-US' and filled missing values in 𝑐𝑎𝑡𝑒𝑔𝑜𝑟𝑦 with 'No Category'.
    - Dropped irrelevant columns like original date columns and hour- specific columns.
-2. 🕵️ Anomaly detection:
+2. 🔍 Anomaly detection:
    - Before running any clustering algorithm, I ran an Isolation Forest Model for Anomaly Detection to identify and remove anomalies. The model deteted 1,344 anomalies with unusually high 𝑔𝑜𝑎𝑙_𝑢𝑠𝑑, 𝑏𝑎𝑐𝑘𝑒𝑟𝑠_𝑐𝑜𝑢𝑛𝑡 and 𝑢𝑠𝑑_𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
 3. 🤖 Clustering model:
    - I decided to perform K-Prototypes clustering to accommodate both the numerical and categorical features.
