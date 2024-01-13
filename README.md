@@ -37,6 +37,8 @@ Below is the detailed process for model building.
 3. 🤖 Clustering model:
    - Applied K-Prototypes clustering to accommodate both the numerical and categorical features.
    - By testing cost function for different values of K for K-Prototypes Clustering, I could observe K=8 and K=10 are the elbow points at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
+![image](Images/k-prototype-elbow.png)
+
 
 ## 🎉 Conclusion
 In summary, the K-Prototypes clustering algorithm provided valuable insights into diverse project profiles, offering a comprehensive understanding of Kickstarter projects. Overall, successful projects have high number of backers, pledged amounts, and are staff-picked, ultimately securing a place on Kickstarter spotlight page.
