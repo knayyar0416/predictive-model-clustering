@@ -28,14 +28,14 @@ Cluster 8, with a 29% success rate, represents projects with the highest fundrai
 ## 🛠️ How did I achieve this? 
 Below is the detailed process for model building.
 1. 🧹 Data preprocessing:
-   - Removed non- informative columns including 𝑖𝑑, 𝑛𝑎𝑚𝑒, 𝑛𝑎𝑚𝑒_𝑙𝑒𝑛, 𝑏𝑙𝑢𝑟𝑏_𝑙𝑒𝑛, and 𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
+   - Removed non-informative columns including 𝑖𝑑, 𝑛𝑎𝑚𝑒, 𝑛𝑎𝑚𝑒_𝑙𝑒𝑛, 𝑏𝑙𝑢𝑟𝑏_𝑙𝑒𝑛, and 𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
    - Created a new feature, 𝑔𝑜𝑎𝑙_𝑢𝑠𝑑, by multiplying 𝑔𝑜𝑎𝑙 and 𝑠𝑡𝑎𝑡𝑖𝑐_𝑢𝑠𝑑_𝑟𝑎𝑡𝑒.
    - Replaced non-US countries with 'Non-US' and filled missing values in 𝑐𝑎𝑡𝑒𝑔𝑜𝑟𝑦 with 'No Category'.
-   - Dropped irrelevant columns like original date columns and hour- specific columns.
+   - Dropped irrelevant columns like original date columns and hour-specific columns.
 2. 🔍 Anomaly detection:
    - Before running any clustering algorithm, I ran an Isolation Forest Model for Anomaly Detection to identify and remove anomalies. The model deteted 1,344 anomalies with unusually high 𝑔𝑜𝑎𝑙_𝑢𝑠𝑑, 𝑏𝑎𝑐𝑘𝑒𝑟𝑠_𝑐𝑜𝑢𝑛𝑡 and 𝑢𝑠𝑑_𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
 3. 🤖 Clustering model:
-   - I decided to perform K-Prototypes clustering to accommodate both the numerical and categorical features.
+   - Applied K-Prototypes clustering to accommodate both the numerical and categorical features.
    - By testing cost function for different values of K for K-Prototypes Clustering, I could observe K=8 and K=10 are the elbow points at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
 
 ## 🎉 Conclusion
