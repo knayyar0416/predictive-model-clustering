@@ -36,9 +36,7 @@ Below is the detailed process for model building.
    - Before running any clustering algorithm, I ran an Isolation Forest Model for Anomaly Detection to identify and remove anomalies. The model deteted 1,344 anomalies with unusually high 𝑔𝑜𝑎𝑙_𝑢𝑠𝑑, 𝑏𝑎𝑐𝑘𝑒𝑟𝑠_𝑐𝑜𝑢𝑛𝑡 and 𝑢𝑠𝑑_𝑝𝑙𝑒𝑑𝑔𝑒𝑑.
 3. 🤖 Clustering model:
    - Applied K-Prototypes clustering to accommodate both the numerical and categorical features.
-   - By testing cost function for different values of K for K-Prototypes Clustering, I could observe K=8 and K=10 are the elbow points at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
-![image](Images/k-prototype-elbow.png)
-
+   - By testing cost function for different values of K for K-Prototypes Clustering, I could observe [K=8 and K=10 are the elbow points](Images/k-prototype-elbow.png) at which the cost drops drastically. I chose K=8 since it was giving me better business interpretations.
 
 ## 🎉 Conclusion
 In summary, the K-Prototypes clustering algorithm provided valuable insights into diverse project profiles, offering a comprehensive understanding of Kickstarter projects. Overall, successful projects have high number of backers, pledged amounts, and are staff-picked, ultimately securing a place on Kickstarter spotlight page.
