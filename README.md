@@ -45,8 +45,7 @@ In summary, the K-Prototypes clustering algorithm provided valuable insights int
 When it comes to computation of performance, it is hard to measure ‘distance’ between categorical variables. Instead, it is more suitable to assess the "dissimilarity" between categorical variables. To address this, I attempted to use 'kprototypes.matching_dissim' and 'kprototypes.check_distance' to compute dissimilarity for categorical variables and distance for continuous ones. My goal was to obtain the silhouette score, but unfortunately, I encountered errors in the process.
 
 ## 🔗 Supporting files
-- 👩‍💻 [Python script for final selected clustering model]()
-- 👩‍💻 [Python script for all clustering models]()
+- 👩‍💻 [Python script for clustering models](kickstarter-clustering-models.py)
 - 📁 [Entire dataset](kickstarter.xlsx) and [Data Dictionary](kickstarter-data-dictionary.xlsx)
 - 📊 [Data exploration and other charts](Images)
 
