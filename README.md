@@ -7,7 +7,7 @@ In this project, I applied K-Prototypes clustering and anomaly detection to disc
 [Kickstarter](https://www.kickstarter.com) is a platform where creators share their project visions with the communities that will come together to fund them.
 
 ## 🏆 What did I discover?
-By grouping the Kickstarter projects using unsupervised clustering, the management could uncover distinct characteristics within each cluster. Below are the unique characteristics of 8 clusters.
+By grouping the projects using clustering algorithm, the management could uncover distinct characteristics within each cluster. Below are the unique characteristics of 8 clusters.
 #### ⚖️ Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
 #### 📆 High Goals, Recent Projects
