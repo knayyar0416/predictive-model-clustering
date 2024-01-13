@@ -1,7 +1,7 @@
 # Exploring distinctive features for various projects using unsupverised clustering algorithm
 In this project, I applied anomaly detection and K-Prototypes clustering to discover patterns in the dataset keeping in mind the potential benefits the stakeholders can get from the model.
 
-   💡 Instead of using K-Means clustering which is best suited to contuinuous variables, I used K-Prototypes clustering to handle a mix of categorical and continuous variables. 
+   💡 Instead of using K-Means clustering which is best suited for contuinuous variables, I used K-Prototypes clustering to handle a mix of categorical and continuous variables present in my dataset. 
 
 ## 🌐 About Kickstarter
 [Kickstarter](https://www.kickstarter.com) is a platform where creators share their project visions with the communities that will come together to fund them.
