@@ -8,7 +8,6 @@ In this project, I applied K-Prototypes clustering and anomaly detection to disc
 
 ## 🏆 What did I discover?
 By grouping the projects using clustering algorithm, the management could uncover distinct characteristics within each cluster. Below are the unique characteristics of 8 clusters.
-![image](Images/pair_plots_numeric.png)
 #### ⚖️ Moderate Goals, Quick Launchers
 These projects showed a preference for swift project initiation, and the pledged amount tended to increase as the launch- to-deadline period extended.
 #### 📆 High Goals, Recent Projects
@@ -25,6 +24,7 @@ This cluster embodied a preference for rapid project development and execution.
 With a 24% success rate, Cluster 7 features projects with relatively higher fundraising goals compared to the amount pledged.
 #### 🕰️ Long-Term High-Stakes
 Cluster 8, with a 29% success rate, represents projects with the highest fundraising goals across clusters. Notably, these projects were created a long time back, suggesting a lower success rate over time.
+![image](Images/pair_plots_numeric.png)
 
 ## 🛠️ How did I achieve this? 
 Below is the detailed process for model building.
