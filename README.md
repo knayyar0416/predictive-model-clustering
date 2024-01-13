@@ -41,6 +41,9 @@ Below is the detailed process for model building.
 ## 🎉 Conclusion
 In summary, the K-Prototypes clustering algorithm provided valuable insights into diverse project profiles, offering a comprehensive understanding of Kickstarter projects. Overall, successful projects have high number of backers, pledged amounts, and are staff-picked, ultimately securing a place on Kickstarter spotlight page.
 
+## ❗️ Challenges faced
+It is hard to measure ‘distance’ between categorical variables. Instead, it is more suitable to assess the "dissimilarity" between categorical variables. To address this, I attempted to use 'kprototypes.matching_dissim' and 'kprototypes.check_distance' to compute dissimilarity for categorical variables and distance for continuous ones. My goal was to obtain the silhouette score, but unfortunately, I encountered errors in the process.
+
 ## 🔗 Supporting files
 - 👩‍💻 [Python script for final selected clustering model]()
 - 👩‍💻 [Python script for all clustering models]()
